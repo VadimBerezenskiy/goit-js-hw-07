@@ -34,3 +34,7 @@ const addImgElements = images.map(imgInfo => {
       .join(' ')} /></li>`,
   );
 });
+
+galleryList.style.display = 'flex';
+galleryList.style.justifyContent = 'space-between';
+galleryList.style.listStyleType = 'none';
