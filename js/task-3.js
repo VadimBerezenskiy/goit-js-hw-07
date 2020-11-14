@@ -18,6 +18,8 @@ const images = [
 
 const galleryList = document.querySelector('#gallery');
 
+// <---Сделано двумя методами через "апенд" и "аджацент"----->
+
 const addImgElements = images.map(imgInfo => {
   //   const listRef = document.createElement('li');
   //   const imgRef = document.createElement('img');
